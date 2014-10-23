@@ -1,0 +1,20 @@
+{
+  "name": "DHT11",
+  "keywords": "sensor, humidity, temperature, dht",
+  "description": "This library interfaces with the DHT11 low-cost temperature and humidity sensor",
+  "authors":
+  {
+    "name": "Bryce Feigum",
+    "email": "bafeigum@gmail.com",
+    "url": "https://github.com/bafeigum"
+  },  
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/bafeigum/DHT11-Library-for-MSP430.git"
+  },
+  "include": "DHT11_LIB",
+  "exclude": "DHT11_LIB/*.lib",
+  "examples": "DHT11_APP/*.c",
+  "platforms": "timsp430"
+}
